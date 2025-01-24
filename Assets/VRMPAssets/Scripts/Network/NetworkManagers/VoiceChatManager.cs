@@ -142,15 +142,15 @@ namespace XRMultiplayer
         {
             m_ConnectedToRoom = false;
 
-            XRINetworkGameManager.CurrentConnectionState.Subscribe(ConnectionStateUpdated);
+            //XRINetworkGameManager.CurrentConnectionState.Subscribe(ConnectionStateUpdated);
             XRINetworkGameManager.Connected.Subscribe(ConnectedToGame);
         }
 
         ///<inheritdoc/>
         private void OnDestroy()
         {
-            VivoxService.Instance.LoggedIn -= LocalUserLoggedIn;
-            UnbindParticipantEvents();
+            //VivoxService.Instance.LoggedIn -= LocalUserLoggedIn;
+            //UnbindParticipantEvents();
         }
 
         /// <summary>
