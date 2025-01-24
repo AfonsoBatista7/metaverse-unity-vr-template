@@ -170,7 +170,7 @@ namespace XRMultiplayer
         /// <summary>
         /// See <see cref="MonoBehaviour"/>.
         /// </summary>
-        protected virtual async void Awake()
+        protected virtual /*async*/ void Awake()
         {
             // Check for existing singleton reference. If once already exists early out.
             if (s_Instance != null)
@@ -194,17 +194,17 @@ namespace XRMultiplayer
             }
 
 #if UNITY_EDITOR
-            if(!CloudProjectSettings.projectBound)
+            /*if(!CloudProjectSettings.projectBound)
             {
                 Utils.Log($"{k_DebugPrepend}Project has not been linked to Unity Cloud." +
                                "\nThe VR Multiplayer Template utilizes Unity Gaming Services and must be linked to Unity Cloud." +
                                "\nGo to <b>Settings -> Project Settings -> Services</b> and link your project.", 2);
                 return;
-            }
+            }*/
 #endif
 
             // Initialize bindable variables.
-            m_Connected.Value = false;
+            /*m_Connected.Value = false;
             // Update connection state.
             m_ConnectionState.Value = ConnectionState.Authenticating;
 
@@ -220,7 +220,8 @@ namespace XRMultiplayer
             {
                 // Update connection state.
                 m_ConnectionState.Value = ConnectionState.Authenticated;
-            }
+            }*/
+            m_ConnectionState.Value = ConnectionState.Authenticated;
         }
 
         /// <summary>
@@ -249,7 +250,7 @@ namespace XRMultiplayer
             ShutDown();
         }
 
-        async void ShutDown()
+        /*async*/ void ShutDown()
         {
             if (m_IsShuttingDown) return;
             m_IsShuttingDown = true;
@@ -261,7 +262,7 @@ namespace XRMultiplayer
             }
 
             // Shutdown lobby if owner, remove from lobby if not owner.
-            await m_LobbyManager.RemovePlayerFromLobby(AuthenicationId);
+            //await m_LobbyManager.RemovePlayerFromLobby(AuthenicationId);
         }
 
         public async Task<bool> Authenticate()

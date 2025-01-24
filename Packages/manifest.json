@@ -11,6 +11,7 @@
     "com.unity.services.relay": "1.0.5",
     "com.unity.services.vivox": "16.5.0",
     "com.unity.textmeshpro": "3.0.9",
+    "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.10",
     "com.unity.transport": "2.3.0",
     "com.unity.xr.hands": "1.5.0",
     "com.unity.xr.interaction.toolkit": "3.0.5",
