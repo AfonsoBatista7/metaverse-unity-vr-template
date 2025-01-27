@@ -1,5 +1,3 @@
-<a id="readme-top"></a>
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
@@ -13,23 +11,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/gafda/example-repo">
+  <a href="https://github.com/AfonsoBatista7/metaverse-unity-vr-template>
     <img src="./docs/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">example-repo</h3>
+  <h3 align="center">Metaverse Unity VR Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A comprehensive Unity VR template for metaverse projects!
     <br />
-    <a href="https://github.com/gafda/example-repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AfonsoBatista7/metaverse-unity-vr-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/gafda/example-repo">View Demo</a>
     ·
-    <a href="https://github.com/gafda/example-repo/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
+    <a href="https://github.com/AfonsoBatista7/metaverse-unity-vr-template/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/gafda/example-repo/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
+    <a href="https://github.com/AfonsoBatista7/metaverse-unity-vr-template/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
   </p>
 </div>
 
@@ -51,7 +48,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -64,34 +60,26 @@
 
 [![Product Name Screen Shot, may be ani-gif][product-screenshot]](https://example.com)
 
-This project is designed to provide a comprehensive solution for [briefly describe the purpose of the project]. It aims to [mention the main goals or objectives of the project].
+This project is designed to provide a comprehensive Unity VR template for metaverse projects. It aims to streamline the development process and provide a solid foundation for creating immersive VR experiences.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section lists the major frameworks/libraries used to bootstrap the project. Here are a few examples:
 
-* [![dotNetCore][dotnetcore-shield]][dotnetcore-url]
-* [![Bootstrap][bootstrap-shield]][bootstrap-url]
-* [![Docker][docker-shield]][docker-url]
-* [![Kubernetes][kubernetes-shield]][kubernetes-url]
+* [![Unity][unity-shield]][unity-url]
+* [![VRToolkit][vrtoolkit-shield]][vrtoolkit-url]
+* [![Oculus][oculus-shield]][oculus-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Features
 
-This section should list the features that have been implemented and those that are planned for the future. Use the following format:
+This section lists the features that have been implemented and those that are planned for the future. Use the following format:
 
-- [x] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Sub-feature 3.1
-  - [x] Sub-feature 3.2
-  - [ ] Sub-feature 3.3
-- [ ] Feature 4
-  - [ ] Sub-feature 4.1
-    - [ ] Sub-sub-feature 4.1.1
+- [x] Basic VR Setup
+- [x] Multiplayer Support
 
 **Legend:**
 
@@ -107,50 +95,28 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 Hardware:
-* 40 TOP NPU
-* nVidia RTX20+
-* 4GB VRAM+
-* CPU Cores 4x+
-* ...
+* VR Headset (Oculus, HTC Vive, etc.)
 
 Software:
-* DotNet Core 8.0
-* DirectX v12.1
-* TensorFlow 2.0
-* ...
+* Unity 2022.3+
+* Oculus Integration
 
 Extra:
 * Internet access
-* ...
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can instruct your audience on installing and setting up your app._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
     ```sh
-    git clone https://github.com/github_username/repo_name.git
-    cd repo_name
+    git clone https://github.com/AfonsoBatista7/metaverse-unity-vr-template.git
+    cd metaverse-unity-vr-template
     ```
-3. Install libraries
-    ```sh
-    dotnet restore
-    ```
-4. Enter your API in `app.settings`
-    ```json
-    API_KEY: "ENTER YOUR API"
-    ```
-5. Build the project
-    ```sh
-    dotnet build
-    ```
-6. Run the project
-    ```sh
-    dotnet run
-    ```
-7. Open your browser and navigate to `http://localhost:5000`
-8. Enjoy!
+2. Open the project in Unity
+3. Install required packages via Unity Package Manager
+4. Configure your VR headset or use XR Device Simulator in Unity settings
+5. Build and run the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,15 +133,10 @@ For development documentation, please refer to the [Documentation](;/docs/DEVELO
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add stuff needed (2024)
-- [ ] Add more stuff needed
-- [ ] Change to include wishful thinking
-- [ ] Add\Include Multi-language Support
-    - [ ] Japanese
-    - [ ] Swahili
-    - [ ] Korean
+- [x] Basic VR Setup (2024)
+- [x] Add Multiplayer Support
 
-See the [open issues](https://github.com/gafda/example-repo/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/AfonsoBatista7/metaverse-unity-vr-template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,8 +169,11 @@ c. (bug) - for bug fixes: `git checkout -b fix-my-awesome-fix`
 
 ### Top contributors:
 
-<a href="https://github.com/gafda/example-repo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=gafda/example-repo" alt="contrib.rocks image" />
+<a href="https://github.com/AfonsoBatista7/metaverse-unity-vr-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AfonsoBatista7/metaverse-unity-vr-template" alt="contrib.rocks image" />
+</a>
+<a href="https://github.com/PedroAntunes/metaverse-unity-vr-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PedroAntunes/metaverse-unity-vr-template" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -223,10 +187,10 @@ Distributed under the GPL-3 License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
+Afonso Batista - [afonsobatista13@gmail.com](mailto://email@example.com)
+Pedro Antunes - [pedrodsantunes@gmail.com](mailto://email@example.com)
 
-Your Name - [@your_email](mailto://email@example.com)
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/AfonsoBatista7/metaverse-unity-vr-template](https://github.com/AfonsoBatista7/metaverse-unity-vr-template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -249,24 +213,22 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- From own repo -->
-[contributors-shield]: https://img.shields.io/github/contributors/gafda/example-repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/gafda/example-repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gafda/example-repo.svg?style=for-the-badge
-[forks-url]: https://github.com/gafda/example-repo/network/members
-[issues-shield]: https://img.shields.io/github/issues/gafda/example-repo.svg?style=for-the-badge
-[issues-url]: https://github.com/gafda/example-repo/issues
-[license-shield]: https://img.shields.io/github/license/gafda/example-repo.svg?style=for-the-badge
-[license-url]: https://github.com/gafda/example-repo/blob/master/LICENSE.txt
-[stars-shield]: https://img.shields.io/github/stars/gafda/example-repo.svg?style=for-the-badge
-[stars-url]: https://github.com/gafda/example-repo/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/AfonsoBatista7/metaverse-unity-vr-template.svg?style=for-the-badge
+[contributors-url]: https://github.com/AfonsoBatista7/metaverse-unity-vr-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AfonsoBatista7/metaverse-unity-vr-template.svg?style=for-the-badge
+[forks-url]: https://github.com/AfonsoBatista7/metaverse-unity-vr-template/network/members
+[issues-shield]: https://img.shields.io/github/issues/PedroAntunes/metaverse-unity-vr-template.svg?style=for-the-badge
+[issues-url]: https://github.com/AfonsoBatista7/metaverse-unity-vr-template/issues
+[license-shield]: https://img.shields.io/github/license/AfonsoBatista7/metaverse-unity-vr-template.svg?style=for-the-badge
+[license-url]: https://github.com/AfonsoBatista7/metaverse-unity-vr-template/blob/master/LICENSE.txt
+[stars-shield]: https://img.shields.io/github/stars/AfonsoBatista7/metaverse-unity-vr-template.svg?style=for-the-badge
+[stars-url]: https://github.com/AfonsoBatista7/metaverse-unity-vr-template/stargazers
 <!-- From repo images -->
 [product-screenshot]: ./docs/images/screenshot.png
 <!-- From badges -->
-[bootstrap-shield]: https://img.shields.io/badge/Bootstrap-5.3-blue?style=for-the-badge&logo=bootstrap&logoColor=white
-[bootstrap-url]: https://getbootstrap.com
-[docker-shield]: https://img.shields.io/badge/Docker-24.0+-2496ED?style=for-the-badge&logo=docker&logoColor=white
-[docker-url]: https://www.docker.com
-[dotnetcore-shield]: https://img.shields.io/badge/.NET_Core-8.0-blueviolet?style=for-the-badge&logo=.net&logoColor=white
-[dotnetcore-url]: https://dotnet.microsoft.com
-[kubernetes-shield]: https://img.shields.io/badge/Kubernetes-1.31+-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
-[kubernetes-url]: https://kubernetes.io
+[unity-shield]: https://img.shields.io/badge/Unity-2021.3+-000000?style=for-the-badge&logo=unity&logoColor=white
+[unity-url]: https://unity.com
+[vrtoolkit-shield]: https://img.shields.io/badge/VR_Toolkit-1.0+-blue?style=for-the-badge&logo=virtual-reality&logoColor=white
+[vrtoolkit-url]: https://example.com
+[oculus-shield]: https://img.shields.io/badge/Oculus-Integration-0056FF?style=for-the-badge&logo=oculus&logoColor=white
+[oculus-url]: https://developer.oculus.com
